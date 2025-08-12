@@ -3,7 +3,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 import path from "path";
 
-const TARGET_URL = process.env.TARGET_URL || "https://example.com/pengurusan-tertinggi";
+const TARGET_URL = process.env.TARGET_URL || "https://www.upsi.edu.my/pengurusan-tertinggi/?lang=ms";
 const OUT_DIR = "docs";
 const OUT_FILE = path.join(OUT_DIR, "index.html");
 const TIMEOUT = 30000;
