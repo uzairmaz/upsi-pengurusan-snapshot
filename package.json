@@ -1,0 +1,13 @@
+{
+  "name": "upsi-pengurusan-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch.js"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0",
+    "jsdom": "^24.0.0"
+  }
+}
